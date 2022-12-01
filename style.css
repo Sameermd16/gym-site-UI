@@ -1,0 +1,144 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    /* background: url(gym_pic.jpg); */
+    color: white;
+}
+header::before{
+    background: url(gym_pic.jpg);
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 50%;
+}
+.navbar li{
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 8px;
+    font-size: 20px;
+}
+
+.navbar{
+    /* text-align: center; */
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    margin-top: 20px;
+    width: 450px;
+    font-size: 20px;
+    
+    /* margin-left: 650px; */
+}
+.navbar li{
+    font-size: 20px;
+}
+.navbar li:hover{
+    cursor: pointer;
+    color: grey;
+}
+.navbar li:active, li:hover{
+    text-decoration: underline;
+}
+
+.logo img{
+    display: inline;
+    color: white;
+    filter: invert(100%);
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    
+}
+.logo{
+    display: inline-block;
+    position:absolute;
+    left: 15px;
+    top: 0px;
+}
+p{
+    margin-top: 0px;
+}
+.container{
+    width:350px;
+    display: inline-block;
+    position: absolute;
+    left:450px;
+    top: 100px;
+}
+
+.form{
+    display: inline-block;
+    position: absolute;
+    left: 450px;
+    top: 300px;
+    opacity: 80%;
+}
+.form-group input{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 15px;
+}
+.btn button{
+    width: 100px;
+    height: 28px;
+    align-items: center;
+    font-size: 15px;
+}
+.btn{
+    margin-left: 75px;
+    align-items: center;
+}
+.btn button:hover{
+    cursor: pointer;
+    background-color: rgb(243, 209, 15);
+}
+.copyright{
+    display: inline-block;
+    margin-left: 980px;
+    margin-top: 750px;
+    /* text-decoration: none; */
+}
+.tlogo{
+    display: inline-block;
+    margin-left: 45rem;
+    margin-bottom: 2.5rem;
+    margin-top: 45rem;
+}
+.tlogo ul{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+}
+a{
+    color: white;
+    font-size: 25px;
+}
+li{
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+}
+#twitter:hover{
+    color: lightskyblue;
+}
+#insta:hover{
+    color: palevioletred;
+}
+#facebook:hover{
+    color: lightskyblue;
+}
+#youtube:hover{
+    color: red;
+}
+#copyright{
+    text-decoration: none;
+}
