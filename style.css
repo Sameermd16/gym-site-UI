@@ -109,9 +109,9 @@ p{
 }
 .tlogo{
     display: inline-block;
-    margin-left: 45rem;
-    margin-bottom: 2.5rem;
-    margin-top: 45rem;
+    margin-left: 44rem;
+    margin-bottom: none;
+    margin-top: 43rem;
 }
 .tlogo ul{
     list-style-type: none;
